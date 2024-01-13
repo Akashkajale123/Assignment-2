@@ -17,9 +17,6 @@ const connectDB = async () => {
   }
 };
 
-// Use the following line to avoid deprecation warnings
-// mongoose.set('useFindAndModify', false);
-
 connectDB();
 
 // Middleware
