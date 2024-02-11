@@ -7,7 +7,7 @@ const app = express();
 const PORT = 3000;
 const URI = 'mongodb+srv://akashkajale125:akash12@usersinfo.o8le98w.mongodb.net/userInfo?retryWrites=true&w=majority';
 
-// Database connection
+// Database connectionn
 const connectDB = async () => {
   try {
     await mongoose.connect(URI);
